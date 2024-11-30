@@ -5,6 +5,7 @@ from user_input import select_products
 if __name__ == '__main__':
     containers, products = get_data()
 
+    # ToDo: Replace with a user interface.
     selected_products = select_products(containers, products)
 
     selected_containers = determinate_containers(selected_products, containers)
